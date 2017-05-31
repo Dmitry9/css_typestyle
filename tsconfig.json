@@ -1,6 +1,16 @@
 {
 	"compilerOptions": {
 		"target": "es5",
+		"jsx": "react",
+		"types": [
+            // add node as an option
+            "node"
+         ],
+         // typeRoots option has been previously configured
+         "typeRoots": [
+            // add path to @types
+            "node_modules/@types"
+         ],
 		"noImplicitAny": true,
 		"noImplicitReturns": true,
 		"noUnusedLocals": true,
